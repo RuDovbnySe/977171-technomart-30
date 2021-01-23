@@ -1,42 +1,14 @@
 @font-face {
   font-family: cuprum;
-  src: url("../fonts/web/cuprum.woff2")format("woff2"),
-  url("../fonts/web/cuprum.woff")format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: cuprumbold;
-  url("../fonts/web/cuprumbold.woff2")format("woff2"),
-  url("../fonts/web/cuprumbold.woff")format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: cuprumbolditalic;
-  src: url("../fonts/web/cuprumbolditalic.woff2") format("woff2"),
-  url("../fonts/web/cuprumbolditalic.woff")format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: cuprumitalic;
-  src: url("../fonts/web/cuprumitalic.woff2") format("woff2"),
-  url("../fonts/web/cuprumitalic.woff")format("woff");
+  src: url("../fonts/cuprum.woff2")format("woff2"),
+  url("../fonts/cuprum.woff")format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: ptsans;
-  src: url("../fonts/web/ptsans.woff2") format("woff2"),
-  url("../fonts/web/ptsans.woff")format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: ptsansbold;
-  src: url("../fonts/web/ptsansbold.woff2") format("woff2"),
-  url("../fonts/web/ptsansbold.woff")format("woff");
+  src: url("../fonts/ptsans.woff2") format("woff2"),
+  url("../fonts/ptsans.woff")format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -478,14 +450,15 @@ img {
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
+  padding-left: 53px;
+  padding-right: 53px;
   justify-content: space-between;
   background-color: var(--main-nav);
-  box-shadow: inset 0px -5px 0px var(--nav-link-searh);
+  box-shadow: inset 0 -5px 0 var(--nav-link-searh);
 }
 
 .main-nav-item {
   display: flex;
-
   }
 
 .main-nav-link {
@@ -494,9 +467,12 @@ img {
   font-size: 18px;
   line-height: 24px;
   color: var(--white);
-  padding: 16px 29px 20px 29px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 29px;
+  padding-bottom: 29px;
   background-color: var(--main-nav);
-  box-shadow: inset 0px -5px 0px var(--nav-link-searh);
+  box-shadow: inset 0 -5px 0 var(--nav-link-searh);
 }
 
 .main-nav-link[href]:hover {
@@ -2027,7 +2003,7 @@ input[type="checkbox"] ~ .option__element {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-  font-family: 'Cuprum', 'Arial', sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
