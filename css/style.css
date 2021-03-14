@@ -2024,7 +2024,7 @@ input[type="checkbox"] ~ .option__element {
   width: 460px;
   /*margin-bottom: 13px;*/
 }
-.formArea_label {
+.form-area_label {
   font-family: "Cuprum", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -2036,7 +2036,7 @@ input[type="checkbox"] ~ .option__element {
   margin-bottom: 11px;
 }
 
-.formArea_label:-ms-input-placeholder {
+.form-area_label:-ms-input-placeholder {
   font-family: "PT Sans","Arial",sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -2047,7 +2047,7 @@ input[type="checkbox"] ~ .option__element {
 }
 
 .form-area-input,
-.formArea-text {
+.form-area-text {
   background: var(--white);
   border: 2px solid var(--basick-greylight);
   box-sizing: border-box;
@@ -2059,7 +2059,7 @@ input[type="checkbox"] ~ .option__element {
   padding-bottom: 7px;
 }
 
-.formArea-text {
+.form-area-text {
   width: 460px;
   height: 113px;
   padding-left: 12px;
@@ -2076,7 +2076,7 @@ input[type="checkbox"] ~ .option__element {
   color: var(--del-price-color);
 }
 
-.formArea-title {
+.form-area-title {
   font-family: "Cuprum", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -2088,7 +2088,7 @@ input[type="checkbox"] ~ .option__element {
   margin-bottom: 11px;
 }
 
-.formArea-text {
+.form-area-text {
   padding-top: 3px;
   font-family: "PT Sans", "Arial", sans-serif;
   font-style: normal;
