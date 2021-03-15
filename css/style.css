@@ -38,6 +38,7 @@
   --range-controls: #ABABAB;
   --price-dash: #444444;
   --user-link-active: #161D29;
+  --box-shadow: #d9d9d9;
 }
 
 html {
@@ -1959,11 +1960,6 @@ input[type="checkbox"] ~ .option__element {
 
 
 
-
-
-
-
-
 .popup {
   display: block;
   position: fixed;
@@ -1972,7 +1968,7 @@ input[type="checkbox"] ~ .option__element {
   border-top: var(--basick-red) solid 7px;
   background-color: var(--white);
   z-index: 3;
-  box-shadow: 0 4px 20px rgba(var(--black), 0.15);
+  box-shadow: 0 4px 20px var(--box-shadow);
 }
 
 .letter {
@@ -2007,7 +2003,7 @@ input[type="checkbox"] ~ .option__element {
   width: 460px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 4px;
+  margin-top: 5px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -2055,8 +2051,8 @@ input[type="checkbox"] ~ .option__element {
 }
 
 .form-area-input {
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .form-area-text {
@@ -2086,6 +2082,7 @@ input[type="checkbox"] ~ .option__element {
   align-items: center;
   color: var(--black);
   margin-bottom: 11px;
+  border: none;
 }
 
 .form-area-text {
@@ -2104,7 +2101,7 @@ input[type="checkbox"] ~ .option__element {
   align-items: center;
   justify-content: center;
   background-color: var(--popup-foter);
-  margin-top: 37px;
+  margin-top: 25px;
 }
 
 .letter-send {
@@ -2122,7 +2119,6 @@ input[type="checkbox"] ~ .option__element {
   width: 943px;
   height: 449px;
   background-color: var(--white);
-  box-shadow: 0 4px 20px rgba(var(--black), 0.15);
 }
 
 .popup-map iframe {
