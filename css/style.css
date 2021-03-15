@@ -1222,6 +1222,7 @@ img {
 
 .footer-nav-link a[href]:active {
   opacity: 0.5;
+  color: var(--basick-background);
 }
 
 .footer-nav-link a[href]:hover {
@@ -1341,6 +1342,7 @@ img {
 
 .footer-bottom-link:active {
   color: var(--basick-red);
+  border-bottom: none;
 }
 
 .footer-connect-box {
